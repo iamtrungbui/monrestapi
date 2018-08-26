@@ -1,0 +1,32 @@
+{
+    "name": "iamtrungbui/monrestapi",
+    "description": "#MONRESTAPI CORE A pretty library to help developers build RESTful APIs lightly",
+    "keywords": [
+        "api",
+        "rest",
+        "microservice",
+        "webservice",
+        "api generator"
+    ],
+    "homepage": "https://iamtrungbui.tilda.ws/",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "iamtrungbui",
+            "email": "iamtrungbui@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "laravel/lumen-framework": "5.4.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src"
+        ],
+        "psr-4": {
+            "Iamtrungbui\\Monrestapi\\": "src/"
+        }
+    }
+}
