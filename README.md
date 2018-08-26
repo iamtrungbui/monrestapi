@@ -16,6 +16,12 @@ It's always easy to customize to suit any need such as defining data relationshi
   * Metadata
 * Supports Event Bus
 
+## System requirements
+ - PHP: >= 7.0
+ - Laravel/ Lumen Framework: 5.6.*
+ - MySQL
+ - Message queue server: optional
+
 ## Installation
 
 MONRESTAPI CORE is packed as a composer package. So it's installed quickly in 2 steps
@@ -23,15 +29,10 @@ MONRESTAPI CORE is packed as a composer package. So it's installed quickly in 2 
 
     `composer require iamtrungbui/monrestapi`
 
-2. Register the provider: 
+2. Register the provider ( boostrap/app )
 
     `Iamtrungbui\Monrestapi\MonrestapiServiceProvider`
 
-## System requirements
- - PHP: >= 7.0
- - Laravel/ Lumen Framework: 5.6.*
- - MySQL
- - Message queue server: optional
 
 ## API Overview
 
@@ -306,4 +307,4 @@ Response format
 |MONRESTAPI_MQ_PASSWORD         |                   | Message queue authentication - password                                 |                                 | 
 | MONRESTAPI__MQ_EXCHANGE        |                   |                                 |                                 | 
 
-##iamtrungbui
+#iamtrungbui

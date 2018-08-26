@@ -8,7 +8,7 @@
         "webservice",
         "api generator"
     ],
-    "homepage": "https://iamtrungbui.tilda.ws/",
+    "homepage": "https://iamtrungbui.github.io/monrestapi/",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -19,7 +19,7 @@
     ],
     "require": {
         "php": ">=7.0",
-        "laravel/lumen-framework": "5.4.*"
+        "laravel/lumen-framework": "5.6.*"
     },
     "autoload": {
         "classmap": [
