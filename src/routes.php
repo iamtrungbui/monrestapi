@@ -1,6 +1,6 @@
 <?php
 $prefix = env('MONRESTAPI_PREFIX_URL', 'api');
-$this->app->route->group(['prefix' => $prefix], function ($router) {
+$this->app->router->group(['prefix' => $prefix], function ($router) {
     $router->post('upload', [
         'uses' => 'Iamtrungbui\Monrestapi\Controllers\APIController@upload',
     ]);
